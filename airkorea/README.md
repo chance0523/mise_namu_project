@@ -17,9 +17,9 @@
 - #### 측정소명[시각] 리스트에 그 측정소에서 한 달동안 특정 시각마다 측정한 미세먼지 데이터가 입력되어있음.
 
   ```python
-      df1 = read_csv_ym('Yongsan_Hannamdaero','2019','1') # station,year,month
-      hannamdaero= make_si_list(df1, 10) # DataFrame, pm
-      hannamdaero[13] # time
+  df1 = read_csv_ym('Yongsan_Hannamdaero','2019','1') # station,year,month
+  hannamdaero= make_si_list(df1, 10) # DataFrame, pm
+  hannamdaero[13] # time
   ```
 
   ##### '한남대로 측정소'에서 '2019'년 '1'월 매일 '13'시에 측정한 'pm10' 데이터.
