@@ -17,7 +17,7 @@
 #### 측정소명[시각] 리스트에 그 측정소에서 한 달동안 특정 시각마다 측정한 미세먼지 데이터가 입력되어있음.
 
     ```python
-    df1 = read_csv_ym('Yongsan_Hannamdaero','2019','1') # station, year, month
+    df1 = read_csv_ym('Yongsan_Hannamdaero','2019','1') # station,year,month
     hannamdaero= make_si_list(df1, 10) # DataFrame, pm
     hannamdaero[13] # time
     ```
@@ -27,3 +27,13 @@
 #### plot
 
 ![PlotExample](ex1.png)
+
+```python
+
+```
+
+    ```python
+    myList = [1, 2, 3, 4, 5]  # create
+    myList[0], myList[-1]     # indexing
+    myList[:4], myList[1::2]  # slicing
+    ```
